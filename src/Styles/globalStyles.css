@@ -1,0 +1,75 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+    text-decoration: none;
+    background-color: #FFF7EF;
+
+}
+
+.spin-container{
+    margin: 10vh 0 20vh 35vw;
+}
+
+.spinner,.btn-spinner {
+    border: solid 10px #b6b6ad;
+    border-top: solid 10px rgba(12, 7, 7, 0.863);
+    border-radius: 50%;
+    height: 5vw;
+    width: 5vw;
+    transform: translate3d(-50%,-50%,10);
+    animation: spin 1.5s linear infinite;
+    animation-play-state: initial;
+    will-change: tarnsform ;
+
+}
+.btn-spinner{
+    
+    border: solid 6px #ececec;
+    border-radius: 50%;
+    border-top: solid 6px rgba(218, 12, 149, 0.863);
+    height: 26px;
+    width: 26px;
+    margin: 3px 112px;
+    transform: translate3d(-50%,-50%,10);
+    animation: spin 1.5s linear infinite;
+    animation-play-state: initial;
+    will-change: tarnsform ;
+
+}
+
+ @keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+@media (max-width:700px) {
+    .spinner {
+        border: solid 8px #b6b6ad;
+        border-top: solid 8px rgba(218, 12, 149, 0.863);
+        height: 12vw;
+        width: 12vw;
+    
+    }
+    .spin-container{
+        margin: 10vh 0 20vh 35vw;
+    }
+
+
+    
+}  

@@ -1,0 +1,138 @@
+
+#nav-container{
+  padding-bottom: 60px;
+}
+  nav{
+    background: #ff7f7f;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+        
+  }
+
+  label.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding: 0 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  nav ul{
+    margin-right: 15px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a, .nav-logout{
+    color: #fff;
+    font-size: 1.15rem;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    transition: .5s;
+    color: #022f69;
+  }
+  
+  #check{
+    display: none;
+  }
+  .nav-logout{
+    cursor: pointer;
+  }
+
+  .checkbtn{
+      font-size: 26px;
+      color: #fff;
+      float: right;
+      line-height: 57px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+    }
+    .nav-user-icon-div{
+     margin-top: 7px;
+     margin-left: 20px;
+
+    }
+    #authnav{
+      display: flex;
+    }
+ 
+
+  @media (max-width: 965px){
+
+    label.logo{
+      font-size: 1.6rem;
+      padding: 0 10px;
+    }
+    
+  }
+ 
+  @media (max-width: 775px){
+    #nav-container{
+      padding-bottom: 45px;
+    }
+
+    label.logo{ 
+      line-height: 55px;
+
+    }
+    nav{
+      display: block;
+      height: 55px;
+      
+    }
+    nav ul{
+      float: right;
+    }
+    .search-div{
+      display: flex;
+      background-color:rgb(238, 230, 230); 
+     margin: 0 10px 0 10px;
+    }
+    .checkbtn{
+      display: block;
+      margin: 0 25px 0 0;
+      padding: 0;
+    }
+    nav ul{
+      position: fixed;
+       width: 60%;
+      height: 100vh; 
+      background: #d17676;
+      top: 55px;
+      left: -100%;
+      text-align: center; 
+      transition: all .3s;
+    }
+    nav ul li{
+      display: block;
+      margin: 30px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 1.2rem;
+    }
+    a:hover, a.active{
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .nav-user-icon-div{
+      margin-top: 35vh;
+    }
+    #authnav{
+      all: unset;
+    }
+  }

@@ -1,0 +1,161 @@
+
+.container{
+  margin-left: 10vw;
+}
+.headTitle{
+
+   margin: 30px 0;
+    color: #CA2253;
+    font-size: 24px;
+}
+.textBox{
+    width: 70vw;
+    height: 150px;
+
+}
+.btn{
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 12px;
+    width:20vw;
+    margin-left: 45vw;
+    border-radius:14px;
+    border: none;
+    background-color:#FF7F7F;
+    color: azure;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.btn:hover, #btn2:hover, .btn3:hover{
+    border: 3px solid #FF2E31;
+}
+.emojiContainer{
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.emojis{
+    display: flex;
+    align-items: center;
+    font-size: 90px;
+    flex-direction: column;
+}
+.nature{
+    font-size: 25px;
+    margin-top: 15px;
+    font-style: italic;  
+    letter-spacing: 1px;
+    color: #CA2253;
+}
+.percentage{
+    color:#CA2253;
+    font-size: 20px;
+    margin: 8px 0 30px 0;
+
+}
+.thumbsEmoji{
+    display: block;
+    margin-bottom: 14px;
+    position: relative;
+    left: 50px;
+}
+.saBenefits{
+    margin-top: 40px;
+    font-size: 38px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    color: #CA2253;
+    font-style: italic;
+}
+#sa-card{
+    display: flex;
+    justify-content: space-around;
+}
+.benefitsCard{
+    width: 20vw;
+    border: 1px solid;
+    box-shadow: 0px 1px 3px;
+}
+.insideCard{
+    margin:20px;
+    font-size: 1.5rem;
+}
+ .btn3{
+    cursor: pointer;
+    padding: 16px;
+    width:24vw;
+    border-radius:18px;
+    border: none;
+    background-color:#FF7F7F;
+    color: azure;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 20px 26vw;
+}
+
+/* file input */
+.custom-data-input-box{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 20px 0;
+    background-color: #fff;
+    width: 70vw;
+    height: 150px;
+    border: 1px solid rgba(46, 45, 45, 0.836);
+    align-items: center;
+    justify-content: center;
+}
+.custom-data-input-label , .custom-data-input{
+    all: unset;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.custom-data-input{
+    margin: 0 0 0 120px;
+}
+@media (max-width: 875px){
+    .upper-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBox{
+        width: 83vw;
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+    .headTitle{
+        margin: 20px 0 10px;
+        font-size: 1.37rem;
+    }
+    .emojiContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width:44vw;
+        margin: 30px 0 40px 25vw;   
+    }
+    .btn3{
+        width: 60vw;
+        margin: 50px 10vw;
+        
+    }
+    .custom-data-input-box{
+
+        width: 85vw;
+        height: 120px;
+        margin: 30px 0 20px 0;
+    }
+    
+
+    .custom-data-input-label , .custom-data-input{
+        font-size: 1rem;
+        margin: 10px 0 20px 20px ;
+    }
+}

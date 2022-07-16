@@ -1,0 +1,237 @@
+
+.title {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  font-style: italic;
+  color: #d80000;
+}
+.para {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  color: #ca2253;
+  line-height: 1.49;
+  letter-spacing: 0.3px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.all-content {
+  width: 86vw;
+  margin: 0 6vw;
+  margin-top: 30px;
+}
+.boxes {
+  display: flex;
+  margin: 3.8rem;
+  justify-content: space-around;
+  margin: 50px 10vw;
+}
+.twitter-box,.youtube-box,.feedback-box {
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 10px;
+  border-color: #1da1f2;
+  font-family: "san-serif";
+  font-size: 1.76rem;
+  width: 20vw;
+  height: 19vw;
+}
+.twitter-box {
+border-color: #1da1f2;
+}
+.youtube-box {
+  border-color: #ff0000;
+
+}
+.feedback-box {
+   border-color: purple;
+
+}
+.twitter-box:hover {
+  background-color: #1da1f2;
+  color: white;
+  cursor: pointer;
+}
+.youtube-box:hover {
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+.feedback-box:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+#down-start{
+  font-size: 27px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  font-style: italic;
+  color: #d80000;
+}
+
+.lists {
+  color: #ca2253;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+  font-size: 18px;
+  list-style: bullets;
+  padding-right: 5vw;
+}
+.why-ul .lists {
+  position: relative;
+  left: 6vw;
+}
+
+.SaFp-btn {
+  margin-top: 26px;
+  cursor: pointer;
+  padding: 12px;
+  width: 12vw;
+  border-radius: 18px;
+  border: none;
+  background-color: #ff7f7f;
+  color: azure;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-bottom: 26px;
+}
+.btn-last {
+  cursor: pointer;
+  padding: 12px;
+  width: 11vw;
+  border-radius: 18px;
+  border: none;
+  background-color: #ff7f7f;
+  color: azure;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.SaFp-btn:hover,.btn-last:hover {
+  border: 3px solid #ff2e31;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  margin:20px 0 55px 0;
+}
+.price-box, .click-plan{
+  display: flex;
+  width: 25vw;
+  height: 450px;
+  box-shadow: 1px 4px 6px rgba(0,0,0,0.4) ;
+  background-color:#fff;
+  border-radius: 15px;
+  color:#700926;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+.price-signup{
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27%;
+  height: 8%;
+  color: #fff;
+  font-size: 1.1rem;
+  background-color: #d16684;
+  border-radius: 7px;
+  margin: 10px 0;
+  
+}
+.price-type {
+  all: unset;
+  font-size: 1.45rem;
+  margin: 25px 0 10px 0 ;
+  font-weight: 500;
+}
+.price-val{
+  font-size: 1.2rem;
+  margin: -5px 0 10px 0 ;
+}
+.price-des{
+   font-size: 1.1rem;
+  margin: 10px 10px 15px 20px ;
+}
+.price-feature-list{
+  margin: 0 3% 0 10%;
+}
+.price-feature-list li{
+ font-size: 1.05rem;
+  margin-bottom:15px;
+}
+.click-plan{
+  cursor: pointer;
+}
+.click-plan:hover{
+  background-color: #f3d9d9;
+}
+.select-plan-title{
+  font-size: 1.4rem;
+  margin: 30px 55px;
+  color: #d80000;
+}
+@media (max-width: 875px){
+
+  .all-content {
+    width: 88vw;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .text-data{
+    padding-left: 4vw;
+  }
+  .title {
+    font-size: 1.7rem;
+
+  }
+
+  .boxes {
+    align-items: center;
+    flex-direction: column;
+   
+  }
+.twitter-box,.youtube-box,.feedback-box {
+  margin-left: 10vw;
+  width: 75vw;
+  height: 70vw;
+  margin-bottom: 55px;
+}
+.btn-last {
+  width: 40vw;
+ 
+}
+.pricing-container{
+  flex-direction: column;
+
+  margin-bottom: 0px;
+
+}
+.price-box ,.click-plan{
+  display: flex;
+  width: 90vw;
+  height: 60vh;
+  margin-bottom: 55px;
+  flex-direction: column;
+
+}
+.click-plan{
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+}
